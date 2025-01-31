@@ -1,23 +1,18 @@
-
 import "./App.css";
-import SearchHeader from './Components/SearchHeaderComponent/SearchHeaderComponent';
-import CocktailList from './Components/Cocktail-list-component-AR/Cocktail-list.jsx';
-import { ProductCart } from "./Components/SingleProductCart/ProductCart";
+import SearchHeader from "./Components/SearchHeaderComponent/SearchHeaderComponent";
+import CocktailList from "./Components/Cocktail-list-component-AR/Cocktail-list.jsx";
 
 function App() {
   return (
     <div className="App">
-
       {/* header */}
 
       <main>
-        <SearchHeader/>
-        <CocktailList/>
-        <ProductCart />
+        <SearchHeader />
+        <CocktailList />
       </main>
 
       {/* footer */}
-
     </div>
   );
 }
